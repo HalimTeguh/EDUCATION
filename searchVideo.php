@@ -4,30 +4,30 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CRUD Paket Belajar</title>
+    <title>CRUD Video Pembelajaran</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body class="bg-light d-flex flex-column align-items-stretch" style="min-height:100vh ;">
     <!-- HEADER -->
     <nav class="navbar" style="background-color: #EB8947;">
-        <div class="container-fluid">
+        <div class="container">
             <ul class="nav justify-content-start">
-                <li class="nav-item pl-5">
-                    <a class="navbar-brand mb-0 h1 " href="indeks.html" style="color: #ffffff;">
-                        <h3>EDUCATION</h3>
+                <li class="nav-item">
+                    <a class="navbar-brand mb-0 h1 " href="homeUser.php" style="color: #ffffff;">
+                        <h3 class="pt-3 pl-5 mb-0">EDUCATION</h3>
                     </a>
                 </li>
             </ul>
             <ul class="nav justify-content-end">
                 <li class="nav-item px-3">
-                    <a class="nav-link mb-0 text-light h6" href="#">HOME</a>
+                    <a class="nav-link mb-0 text-light h6" href="halamanAdmin.php">HOME</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link active mb-0 text-light h6" aria-current="page" href="#"><b>SUNTING</b></a>
+                    <a class="nav-link active mb-0 text-light h6" aria-current="page" href="videoBelajarCRUD.php"><b>SUNTING</b></a>
                 </li>
                 <li class="nav-item px-3 pr-5">
-                    <a class="nav-link mb-0 text-light h6" href="#">LOGOUT</a>
+                    <a class="nav-link mb-0 text-light h6" href="logout.php">LOGOUT</a>
                 </li>
             </ul>
         </div>

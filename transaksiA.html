@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Menyisipkan Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <nav class="navbar" style="background-color: #EB8947;">
+        <div class="container">
+            <ul class="nav justify-content-start">
+                <li class="nav-item">
+                    <a class="navbar-brand mb-0 h1 " href="homeUser.php" style="color: #ffffff;">
+                        <h3 class="pt-3 pl-5 mb-0">EDUCATION</h3>
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav justify-content-end">
+                <li class="nav-item px-3">
+                    <a class="nav-link active mb-0 text-light h6" aria-current="page" href="indeks.html"><b>HOME</b></a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link mb-0 text-light h6" href="artikel1.html">ARTICLE</a>
+                </li>
+                <li class="nav-item px-3 pr-5">
+                    <a class="nav-link mb-0 text-light h6" href="loginbru.php">LOGIN</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ISI -->
+    <div class="container">
+        <h3 class="p-4 py-5 mb-0">
+            Membuat Akun Baru
+        </h3>
+
+        <form action="transaksi1.php" method="get">
+            <div class="form-group">
+                <label for="Nama">Nama Siswa</label>
+                <input type="text" class="form-control mb-3" name="Nama" aria-describedby="pengguna">
+            </div>
+            <div class="form-group">
+                <label for="Username">Username</label>
+                <input type="text" class="form-control mb-3" name="Username" aria-describedby="pengguna">
+            </div>
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" class="form-control mb-3" name="Email" aria-describedby="pengguna">
+            </div>
+            <div class="form-group">
+                <label for="Password">Password</label>
+                <input type="password" class="form-control mb-3" name="Password" aria-describedby="pengguna">
+            </div>
+            <div class="form-group">
+                <label for="Alamat">Alamat Siswa</label>
+                <input type="text" class="form-control mb-3" name="Alamat" aria-describedby="pengguna">
+            </div>
+            <div class="form-group">
+                <label for="NoHp">Nomor Hp Siswa</label>
+                <input type="text" class="form-control mb-4" name="NoHp" aria-describedby="pengguna">
+            </div>
+            <div class="form-group">
+                <label for="PaketBelajar">Paket Belajar </label>
+                <select class="form-control mb-4" name="PaketBelajar">
+                    <option value="P1">Paket 1 - Gold</option>
+                    <option value="P2">Paket 2 - Silver</option>
+                    <option value="P3">Paket 3 - Perunggu</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Pembayaran" >Metode Pembayaran </label>
+                <select class="form-control mb-4" name="Pembayaran">
+                    <option value="SnapQR">Snap QR</option>
+                    <option value="NomorTelepon">Nomor Telepon</option>
+                    <option value="RekeningBank">Rekening Bank</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="KodePromo" >Kode Promo </label>
+                <input type="text" class="form-control mb-4" name="KodePromo" placeholder="Masukkan Kode Promo">
+            </div>
+            <a href="transaksi1.php"><button type="button" class="btn btn-danger mx-1 mb-5"
+                    style="border-radius:50px">BACK</button></a>
+            <button type="submit" class="btn btn-primary mb-5" style="border-radius:50px">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-copyright text-center py-3"
+        style="background-color: #EB8947; position:relative; bottom:0; width:100%">
+        <p class="text-light">© 2022 EDUCATION Landing Page. All rights reserved</p>
+    </div>
+</body>
+
+</html>
