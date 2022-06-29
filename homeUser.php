@@ -81,7 +81,7 @@
                                 Kode Promo : jawara_bisa <br>
                                 Expired on July 10, 2022
                             </p>
-                            <a href="transaksiA.html" class="btn btn-primary">Ambil Promo</a>
+                            <a href="promo.html" class="btn btn-primary">Ambil Promo</a>
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
                                 Kode Promo : bahagia_selalu <br>
                                 Expired on July 10, 2022
                             </p>
-                            <a href="transaksiA.html" class="btn btn-primary">Ambil Promo</a>
+                            <a href="promo.html" class="btn btn-primary">Ambil Promo</a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                                 Kode Promo : sama_sama <br>
                                 Expired on July 10, 2022
                             </p>
-                            <a href="transaksiA.html" class="btn btn-primary">Ambil Promo</a>
+                            <a href="promo.html" class="btn btn-primary">Ambil Promo</a>
                         </div>
                     </div>
                 </div>
@@ -140,7 +140,7 @@
                     </a>
                 </div>
                 <div class="col-8 text-center" style="display: flex; align-items: center;">
-                    <h5><a class="text-dark pl-3" href="artikel3.html">Industri Kampus Vs Kampus Industri</a></h5>
+                    <h5><a class="text-dark pl-3" href="artikel4.html">Industri Kampus Vs Kampus Industri</a></h5>
                 </div>
                 <div class="col-1"></div>
             </div>

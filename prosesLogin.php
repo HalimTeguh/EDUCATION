@@ -28,6 +28,6 @@
         }
     }else{
         echo '<script> alert("Username dan Password yang Anda masukan salah") </script>';
-        echo '<script> window.location="login.php/password=$password" </script>';
+        echo '<script> window.location="loginbru.php/password=$password" </script>';
     }
 ?>
