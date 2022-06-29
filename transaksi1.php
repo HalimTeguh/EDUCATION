@@ -140,7 +140,7 @@
         mysqli_close($connect);
         ?>
 
-        <a href=""><button type="submit" class="btn btn-primary mb-5" style="border-radius:50px">Bayar</button></a>
+        <a href="loginbru.php"><button type="submit" class="btn btn-primary mb-5" style="border-radius:50px">Bayar</button></a>
     </div>
 
 
