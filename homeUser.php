@@ -50,7 +50,7 @@
                     <div class="card-body bg-warning">
                         <p class="card-text text-center">5 Kegiatan Kelas Virtual Menyenangkan Sebelum Libur Sekolah</p>
                     </div>
-                    <a href=""><button type="button" class="btn btn-warning btn-sm" style="width:100%; border-radius: 0;">Baca Selengkapnya</button></a>
+                    <a href="artikel1.html"><button type="button" class="btn btn-warning btn-sm" style="width:100%; border-radius: 0;">Baca Selengkapnya</button></a>
                     <div class="card-footer bg-secondary" style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; ">
                         <small class="text-white">Last updated 3 mins ago</small>
                     </div>
@@ -60,7 +60,7 @@
                     <div class="card-body bg-warning">
                         <p class="card-text text-center">5 Web dan Aplikasi Baca Buku Online Gratis. Legal dan Bermanfaat!</p>
                     </div>
-                    <a href=""><button type="button" class="btn btn-warning btn-sm" style="width:100%; border-radius: 0;">Baca Selengkapnya</button></a>
+                    <a href="artikel2.html"><button type="button" class="btn btn-warning btn-sm" style="width:100%; border-radius: 0;">Baca Selengkapnya</button></a>
                     <div class="card-footer bg-secondary" style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; ">
                         <small class="text-white">Last updated 3 mins ago</small>
                     </div>
