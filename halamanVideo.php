@@ -8,7 +8,7 @@ $name = $_SESSION['Name'];
 if (!empty($username) && ($level == '2')) {
 } else {
     echo '<script> window.location="login.php/error=username(invalid)||level(invalid)" </script>';
-    header('location:login.php');
+    header('location:loginbru.php');
 }
 ?>
 <!DOCTYPE html>
